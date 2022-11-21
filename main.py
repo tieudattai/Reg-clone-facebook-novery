@@ -78,7 +78,7 @@ def run():
 	sleep(2)
 
 	# chọn giới tính
-	driver.find_element(By.XPATH, '//*[@id="sex"]/div/div[3]/div/label[1]/div').click()
+	driver.find_element(By.XPATH, '//*[@id="sex"]/div/div[3]/div/label[{random.randint(1,2)}]/div').click()
 	sleep(2)
 
 	# ấn tiếp tục
